@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCF8E8;
+    padding: 20px;
+}
+h1{
+    color: #DF7861;
+}
+i{
+    font-size: 3rem;
+}
+.cart-items{
+    position: relative;
+    text-align: center;
+}
+#num-of-items{
+    position: absolute;
+    color: white;
+    top:0px;
+    right: 0px;
+    z-index: 1;
+    background-color: #94B49F;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 70px;
+    background-color: #94B49F;
+    height: auto;
+}
+.card{
+    width: 25%;
+    height: 25%;
+    background-color: #FCF8E8;
+    border-radius: 10px;
+    margin: 10px 20px;
+    cursor: pointer;
+    box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    ;
+}
+.added{
+    box-shadow: 1px 0px 12px 1px #b66552;
+    pointer-events: none;
+}
+img{
+    width: 100%;
+    height: 220px;
+    border-radius: inherit;
+}
+.item-info{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #b66552;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* width: 40%; */
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+}
+.cart-item-name{
+    display: block;
+    align-self: flex-start;
+}
+.cart-item-info{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+hr{
+    width: 50%;
+}
+#total{
+    padding: 20px;
+    font-size: 17px;
+}
+#clear{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #94B49F;
+    color: white;
+    font-size: 17px;
+    margin: 0px 10px;
+}
+.cart-icon{
+    color: black;
+}
+h2{
+    padding: 30px;
+}
